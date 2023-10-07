@@ -354,7 +354,7 @@
         margin-top: -40px;
     }
     .owa {
-        background: url(../images/swirl3.jpg);
+        background: url(./swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -379,7 +379,7 @@
         margin-top: -40px;
     }
     .owa {
-        background: url(../images/swirl3.jpg);
+        background: url(./swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -404,7 +404,7 @@
         margin-top: -40px;
     }
     .owa {
-        background: url(../images/swirl3.jpg);
+        background: url(./swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -422,7 +422,7 @@
 }
 @media only screen and (min-height: 360px) and (max-height: 360px) {
     .owa {
-        background: url(../images/swirl3.jpg);
+        background: url(./swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -451,7 +451,7 @@
 }
 @media only screen and (min-width: 375px) and (max-width: 375px) {
     .owa {
-        background: url(../images/swirl3.jpg);
+        background: url(./swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -493,7 +493,7 @@
         margin-top: -10px;
     }
     .owa {
-        background: url(../images/swirl3.jpg);
+        background: url(./swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -512,7 +512,7 @@
 
 @media only screen and (min-width: 712px) and (max-width: 712px){
     .owa {
-        background: url(../images/swirl3.jpg);
+        background: url(./swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -530,7 +530,7 @@
 }
 @media only screen and (min-width: 800px) and (max-width: 800px){
     .owa {
-        background: url(../images/swirl3.jpg);
+        background: url(./swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -549,7 +549,7 @@
 
 @media only screen and (min-width: 1024px) and (max-width: 1024px) {
     .owa {
-        background: url(../images/swirl3.jpg);
+        background: url(./swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;

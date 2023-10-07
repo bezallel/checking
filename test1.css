@@ -1,0 +1,173 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the main header */
+.head {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.head .logo {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Style the main content area */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.owa {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(./static/images/swirl.jpg); /* Replace with your "owa" section background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 100;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out; /* Added transition for sliding effect */
+}
+
+.owa-powers-btn {
+    color: black;
+    background-image: linear-gradient(to left, #45092d 0%, #070111 100%);    
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2), inset 0 -6px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    position: absolute; 
+    top: 42%;
+    left: 33.6%; 
+    transform: translate(-50%, -50%) translateZ(-4px);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    animation: pulseBorder 2s infinite alternate, glisteningEffect 3s infinite;
+}
+
+.owa-powers-btn .bx.bx-power-off {
+    font-size: 30px;
+    font-weight: 100;
+    color: black; 
+
+}
+
+.chat-section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Style the chat box */
+.chat-box {
+    padding: 10px;
+}
+
+.chat-header {
+    text-align: center;
+}
+
+.logos {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Style the chat content */
+.chat-content {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* Style the user input area */
+.gradient-border {
+    background: linear-gradient(to bottom, #fff, #f9f9f9);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navi {
+    display: flex;
+    align-items: center;
+}
+
+.navi-button {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+/* Style the input field */
+#textInput {
+    flex: 1;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Style the power button */
+.owa-lock {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owa-powers-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 375px) {
+    .owa {
+        background: url(./swirl3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        z-index: 100;
+        overflow: hidden;
+    }
+}

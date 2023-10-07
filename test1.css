@@ -162,6 +162,7 @@ body {
 
 @media only screen and (min-width: 375px) and (max-width: 375px) {
     .owa {
+        position: fixed;
         background: url(./swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
